@@ -1,0 +1,109 @@
+/* Normal desktop:992px. */
+
+@media (min-width: 992px) and (max-width:1200px){
+.column{
+	width:970px 
+}
+.slider-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+ .slider-text a {
+    padding: 10px 40px;
+}
+}
+
+/* tablet desktop:768px. */
+ 
+@media (min-width:768px)and (max-width:991px){
+.column{
+   width:750px	
+}
+.slider-text h1 {
+  font-size: 45px;
+  line-height: 35px;
+  margin-bottom: 5px;
+}
+.slider-text a {
+  display: inline-block;
+  padding: 5px 39px;
+}
+.slider-text p {
+  margin-bottom: 25px;
+}
+.col-4 {
+  width: 50%;
+  margin-bottom: 30px;
+}
+}
+/* small mobile:320px. */
+
+@media(max-width:768px){
+.column{
+	width:300px;
+}
+.logo {
+  float: none;
+  text-align: center;
+}
+.slider-area {
+  clear: both;
+}
+.menu ul li a {
+  padding: 8px 10px;
+}
+.menu {
+  float: none;
+  text-align: center;
+}
+.owl-carousel .owl-nav div {
+
+  display: none;
+}
+.slider-text p {
+  display: none;
+
+}
+.slider-text h1 {
+  font-size: 22px;
+  line-height: 60px;
+  margin-bottom: 3px;
+}
+.slider-text a {
+  font-size: 18px;
+  padding: 2px 9px;
+  display:inline-block;
+  border:1px solid #fff;
+}
+.col-4 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.col-3 {
+  width: 100%;
+}
+.xs-mb-30{
+	margin-bottom:30px;
+}
+.col-2 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.input-field {
+  padding: 0;
+  width: 100%;
+}
+.message-box {
+  padding: 0;
+}
+}	
+
+
+
+/* large Mobile:480px. */
+
+@media only screen and(min-width:480px)and(max-width:450px){
+.column{
+	width:450px;
+}
+}		
